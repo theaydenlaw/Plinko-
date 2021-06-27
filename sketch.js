@@ -68,6 +68,6 @@ function draw() {
 
   //display the paricles 
 if(frameCount %60===0){
-  particle.push(new particle(random(width/2-10,width/2+10),10,10));
+  particles.push(new particle(random(width/2-10,width/2+10),10,10));
 }
 }
